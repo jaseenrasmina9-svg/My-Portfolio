@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jaseen Rasmina | CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --bg: #f4f1ec;
+        --paper: #ffffff;
+        --navy: #111827;
+        --muted: #5d6573;
+        --line: rgba(17, 24, 39, 0.12);
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        font-family: "Inter", Arial, sans-serif;
+        background: var(--bg);
+        color: var(--navy);
+        line-height: 1.6;
+      }
+
+      .page {
+        max-width: 980px;
+        margin: 48px auto;
+        background: var(--paper);
+        border: 1px solid var(--line);
+        box-shadow: 0 10px 30px rgba(17, 24, 39, 0.05);
+      }
+
+      .header {
+        padding: 42px 48px 24px;
+        border-bottom: 1px solid var(--line);
+      }
+
+      h1 {
+        margin: 0;
+        font-family: "Cormorant Garamond", Georgia, serif;
+        font-size: clamp(2.8rem, 5vw, 5rem);
+        line-height: 0.9;
+        letter-spacing: -0.06em;
+      }
+
+      .title {
+        margin-top: 12px;
+        font-size: 0.78rem;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--muted);
+      }
+
+      .content {
+        padding: 32px 48px 48px;
+        display: grid;
+        gap: 28px;
+      }
+
+      .section {
+        display: grid;
+        gap: 12px;
+      }
+
+      .section-title {
+        margin: 0;
+        font-size: 0.74rem;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: var(--muted);
+      }
+
+      .info-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 16px 24px;
+      }
+
+      .info-item {
+        border: 1px solid var(--line);
+        padding: 14px 16px;
+      }
+
+      .label {
+        display: block;
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        letter-spacing: 0.15em;
+        color: var(--muted);
+        margin-bottom: 6px;
+      }
+
+      ul {
+        margin: 0;
+        padding-left: 20px;
+      }
+
+      li {
+        margin-bottom: 8px;
+      }
+
+      .download-row {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 12px;
+      }
+
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 48px;
+        padding: 0.85rem 1.2rem;
+        background: var(--navy);
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 0.14em;
+        font-size: 0.7rem;
+        font-weight: 700;
+      }
+
+      @media (max-width: 700px) {
+        .page {
+          margin: 20px 14px;
+        }
+
+        .header,
+        .content {
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+
+        .info-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <h1>Jaseen Rasmina</h1>
+        <div class="title">Software Engineering Student • Aspiring Software Engineer</div>
+      </header>
+
+      <main class="content">
+        <section class="section">
+          <p class="section-title">Profile</p>
+          <p>
+            I am a passionate and detail-oriented Software Engineering student with a strong
+            foundation in programming, problem-solving, and software development. I have knowledge
+            in Java, Python, JavaScript, web application development, and database concepts. I am a
+            quick learner with good teamwork and communication skills, and I am interested in
+            applying my technical knowledge to real-world projects and growing as a software
+            developer.
+          </p>
+        </section>
+
+        <section class="section">
+          <p class="section-title">Contact</p>
+          <div class="info-grid">
+            <div class="info-item">
+              <span class="label">Email</span>
+              jaseenrasmina9@gmail.com
+            </div>
+            <div class="info-item">
+              <span class="label">Phone</span>
+              +94 771 085 861
+            </div>
+            <div class="info-item">
+              <span class="label">Location</span>
+              Pallikudiyirupu, Akkaraipattu, Sri Lanka
+            </div>
+            <div class="info-item">
+              <span class="label">Status</span>
+              Software Engineering Student
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <p class="section-title">Skills</p>
+          <div class="info-grid">
+            <div class="info-item">
+              <span class="label">Technical</span>
+              <ul>
+                <li>Java</li>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Web Development</li>
+                <li>Database Management</li>
+                <li>SQL / Database Concepts</li>
+              </ul>
+            </div>
+            <div class="info-item">
+              <span class="label">Professional</span>
+              <ul>
+                <li>Communication</li>
+                <li>Attention to Detail</li>
+                <li>Analytical Thinking</li>
+                <li>Team Collaboration</li>
+                <li>Problem Solving</li>
+                <li>Adaptability</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <p class="section-title">Experience</p>
+          <div class="info-item">
+            <span class="label">Trainee in Computing</span>
+            Base Hospital Akkaraipattu<br />
+            August 2023 – December 2023
+            <p>
+              Assisted with IT support and daily technical operations. Gained practical experience
+              with hospital software, patient data systems, networking, and general IT operations.
+            </p>
+          </div>
+        </section>
+
+        <section class="section">
+          <p class="section-title">Education</p>
+          <div class="info-grid">
+            <div class="info-item">
+              <span class="label">Degree</span>
+              BSc (Hons) in Software Engineering<br />
+              International Campus of Science and Technology
+            </div>
+            <div class="info-item">
+              <span class="label">Diploma</span>
+              Diploma in English<br />
+              Bright Future E-Learning Education
+            </div>
+            <div class="info-item">
+              <span class="label">A/L</span>
+              GCE Advanced Level<br />
+              Completed with 3S qualification
+            </div>
+            <div class="info-item">
+              <span class="label">O/L</span>
+              GCE Ordinary Level<br />
+              Distinction pass in each subject
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <p class="section-title">Professional Development</p>
+          <div class="info-grid">
+            <div class="info-item">
+              <span class="label">Future Leadership</span>
+              Eminence College of Science and Technology<br />
+              June 2023
+            </div>
+            <div class="info-item">
+              <span class="label">Management</span>
+              Axis Academy<br />
+              December 2024
+            </div>
+          </div>
+        </section>
+
+        <div class="download-row">
+          <a class="button" href="index.html">Back to Portfolio</a>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

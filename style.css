@@ -244,6 +244,48 @@ textarea {
   margin-top: 1.8rem;
 }
 
+.resume-preview {
+  margin-top: 1.4rem;
+}
+
+.resume-mini {
+  max-width: 420px;
+  display: grid;
+  gap: 0.55rem;
+  padding: 1.1rem 1.2rem;
+  border: 1px solid var(--line-strong);
+  background: rgba(255, 255, 255, 0.34);
+}
+
+.mini-label {
+  font-size: 0.66rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.resume-mini strong {
+  font-size: 1rem;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+.text-link {
+  display: inline-flex;
+  width: fit-content;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.67rem;
+  font-weight: 700;
+  border-bottom: 1px solid var(--line-strong);
+  padding-bottom: 0.18rem;
+}
+
+.cv-button {
+  background: #1b2431;
+}
+
 .button {
   display: inline-flex;
   align-items: center;
